@@ -1,4 +1,6 @@
+<script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import CardOriginal from '@/components/cards/CardOriginal.vue'
 import CardDupe from '@/components/cards/CardDupe.vue'
 import { useGroups } from '@/composables/useGroups'
